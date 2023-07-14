@@ -28,8 +28,54 @@
   },
   "explorationFilters": [],
   "columnUseScientificNotationByName": {},
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "RemoveRowsOnEmpty",
+      "params": {
+        "columns": [
+          "full_name"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FillEmptyWithValue",
+      "params": {
+        "columns": [
+          "home_state"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "value": "NA"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FillEmptyWithValue",
+      "params": {
+        "columns": [
+          "home_phone"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "value": "000"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -62,7 +108,32 @@
       "meaning": "Text"
     }
   },
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "work email": 300,
+    "home_phone": 127,
+    "work_city": 169,
+    "work": 218,
+    "work_address_line_2": 158,
+    "work_extension1": 128,
+    "account_created_on": 183,
+    "work_phone": 127,
+    "last_name": 113,
+    "home_zipcode": 105,
+    "work email_domain": 155,
+    "work email_localpart": 165,
+    "home_state": 120,
+    "account created on": 176,
+    "home_city": 176,
+    "full_name": 169,
+    "home_address": 225,
+    "work_state": 120,
+    "work_address": 211,
+    "work_zipcode": 105,
+    "account_created_on_formatted": 225,
+    "home_address_line_2": 158,
+    "first_name": 100,
+    "email": 260
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
