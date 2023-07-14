@@ -28,8 +28,28 @@
   },
   "explorationFilters": [],
   "columnUseScientificNotationByName": {},
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "Tokenizer",
+      "params": {
+        "inCol": "address",
+        "sortAlphabetically": false,
+        "normalize": false,
+        "language": "english",
+        "operation": "TO_JSON",
+        "clearStopWords": false,
+        "stem": false
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -55,7 +75,25 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "zip": 100,
+    "work email": 300,
+    "address": 288,
+    "city": 176,
+    "work": 218,
+    "last_name": 113,
+    "work address": 281,
+    "account created on": 176,
+    "work zipcode": 105,
+    "full_name": 169,
+    "work state": 120,
+    "phone": 155,
+    "work phone": 155,
+    "work city": 169,
+    "state": 113,
+    "first_name": 100,
+    "email": 260
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
