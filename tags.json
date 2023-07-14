@@ -3,6 +3,9 @@
     "sample_project": {
       "color": "#d66b9b"
     },
+    "duplicated": {
+      "color": "#3A85AD"
+    },
     "within_dss:Basics": {},
     "section:Basics": {},
     "downloads": {},
