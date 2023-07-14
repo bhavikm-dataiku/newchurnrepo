@@ -135,8 +135,7 @@
     },
     "dkuProperties": []
   },
-  "name": "Cleaning Contacts for Administrator",
-  "projectStatus": "Sandbox",
+  "name": "Cleaning Contacts for Administrator (branchone)",
   "imgPattern": 1,
   "metrics": {
     "probes": [],
@@ -193,19 +192,20 @@
     }
   },
   "versionTag": {
-    "versionNumber": 14,
+    "versionNumber": 16,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1689377254673
+    "lastModifiedOn": 1689377306360
   },
   "description": "This project is based on a fictional [dataset generated](https://github.com/rdempsey/dataiku-posts) by Robert Dempsey.\nYou should definitely read the [blogpost](https://blog.dataiku.com/building-clean-data-pipeline) he wrote to describe his project.\n\u003cbr/\u003e\n\nThe goal of this project is to use the visual preparation recipes in DSS to rework and clean a list of contacts we have so we can make something of it.\n\nWe want to: \n\n1.  clean the names of the contacts and separate first names and last names\n2.  clean phone numbers\n3.  clean postal addresses.\n\n# Explore this sample project\n\nTake a look at the data pipeline (the flow) to see the two successive cleaning recipes.\n\nNote: to make this project easier to understand, we have separated the cleansing in two recipes: first the names then the rest. You can do all of the cleansing in a single recipe for better performance.\n\n\u003cp class\u003d\"text-center\"\u003e\n\u003ca href\u003d\"/projects/DKU_CLEANING_CONTACTS/flow/\"  class\u003d\"btn btn-datasets-color btn-cta-big-mod\"\u003e\u003ci class\u003d\"icon-dku-sample_project\" class\u003d\"btn-cta-big-mod-icon\" /\u003e\u0026nbsp;Flow\u003c/a\u003e\u003cbr/\u003e\u003cbr/\u003e\n\u003c/p\u003e\n\nYou should explore the two recipes in [the flow](/projects/DKU_CLEANING_CONTACTS/flow/) to see all the different ways to use the visual preparation recipes!\n\n\n# Related content\n\nSee the [Dataiku Academy](https://academy.dataiku.com) to learn more about doing data science with DSS.",
-  "shortDesc": "Basic pipeline to clean names, phones and addresses",
+  "shortDesc": "Basic pipeline to clean names, phones and addresses\nThe project *CLEANING_CONTACTS_FOR_ADMINISTRATOR_BRANCHONE* was copied from *DKU_CLEANING_CONTACTS* by Administrator on Jul 14th 2023",
   "tags": [
     "sample",
     "gallery",
     "downloads",
-    "section:Basics"
+    "section:Basics",
+    "duplicated"
   ],
   "customFields": {},
   "checklists": {
